@@ -1081,7 +1081,7 @@ async function setupView() {
   const [owner, repoName] = state.gh.repo.split("/");
   const tokenUrl =
     "https://github.com/settings/personal-access-tokens/new?" +
-    new URLSearchParams({ name: "科研日志 " + repoName, description: "只用于科研日志网站发布，只授权 " + repoName + " 仓库", target_name: owner, expires_in: "366", contents: "write" });
+    new URLSearchParams({ name: "科研日志 " + repoName, description: "只用于科研日志网站发布，只授权 " + repoName + " 仓库", target_name: owner, expires_in: "365", contents: "write" });
   main.innerHTML = `
     <div class="sheet">
       <h1 style="margin-top:0">第一次设置</h1>
