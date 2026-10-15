@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "title": "科研日志",
+  "subtitle": "每天记一点，慢慢看见自己走了多远。",
+  "author": "Warren",
+  "repo": "Warren-xh/research-log",
+  "branch": "main",
+  "plan": {
+    "name": "危机 AI 科研入门",
+    "start": "2026-10-12",
+    "weeks": 8
+  },
+  "projects": []
+}
